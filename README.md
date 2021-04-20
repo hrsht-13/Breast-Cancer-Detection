@@ -34,10 +34,14 @@ Since the mammograms looks blury and dull, image preprocessing has been done to 
 ![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/processing.png)
 # Model Deployment using Streamlit
 ``
->!git clone https://github.com/hrsht-13/STREAMLIT.git
+>!git clone https://github.com/hrsht-13/Breast-Cancer-Detection.git
+
 >%cd Breast-Cancer-Detection/
+
 >pip install -r requirements.txt
+
 >!ngrok authtoken 1mWgwxghOSQ2x0LfNFTzYTnJ9zK_81vqRPDdijfPjq8ozBdGq
+
 >from pyngrok import ngrok
 
 public_url = ngrok.connect(port=8501)
@@ -45,4 +49,6 @@ public_url = ngrok.connect(port=8501)
 print (public_url)
 
 !streamlit run app.py >/dev/null
+
 >ngrok.kill()
+``
