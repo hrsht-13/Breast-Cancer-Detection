@@ -1,0 +1,7 @@
+ipykernel
+streamlit
+pyngrok==4.1.8
+pillow==7.0.0
+numpy>=1.9.2
+tensorflow==2.4.1
+requests==2.23.0
