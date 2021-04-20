@@ -27,4 +27,7 @@ B: ``Malignant`` (cancerous)
 # Training Images for each Class
 #### Benign 
 ![alt text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/benign.png)
+#### Malignant
+![alt text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/malignant.png)
+
 
