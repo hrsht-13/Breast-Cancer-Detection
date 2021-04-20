@@ -23,5 +23,5 @@ def download_model():
   for layer in conv_base.layers:
     if layer in train_layers:
       layer.trainable = True
-   model.save("model/model.h5")
+  model.save("model/model.h5")
  
