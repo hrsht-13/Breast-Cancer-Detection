@@ -21,7 +21,7 @@ B: ``(2)`` Scattered areas of fibroglandular density indicates there are some sc
 C: ``(3)`` Heterogeneously dense indicates that there are some areas of nondense tissue, but that the majority of the breast tissue is dense. About 4 in 10 women have this result.
 D: ``(4)`` Extremely dense indicates that nearly all of the breast tissue is dense. About 1 in 10 women has this result.
 #### 2. Tumour 
-A: Benign (noncancerous)
-B: Malignant (cancerous)
+A: ``Benign`` (noncancerous)
+B: ``Malignant`` (cancerous)
 
 # Training Images for each Class
