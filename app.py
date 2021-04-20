@@ -32,10 +32,10 @@ def main():
     img=preprocess(img)
     img=img/255.0
     im=img.reshape(-1,224,224,3)
-    pred=my_model.predict(im)[0]
+    pred=model.predict(im)[0]
     return {class_name[i]:float(pred[i]) for i in range(8)}
   
-  gr.Interface(fn=predict_img,inputs=image,outputs=label,capture_session=True).launch(debug='True')
+  gr.Interface(fn=predict_img,inputs=image,outputs=label,capture_session=True).launch(debug='True',share=True)
   
 if __name__=='__main__':
     main()
