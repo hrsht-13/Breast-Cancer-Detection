@@ -44,4 +44,9 @@ Since the mammograms looks blury and dull, image preprocessing has been done to 
 ###### Open the link to use the app
 
 # App Display
-Still under progress
+#### 1. Web Page
+![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/webpage.png)
+#### 2. Prediction
+![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/prediction.png)
+#### 3. Prediction after cropping image (in the app itself)
+![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/after%20cropping.png)
