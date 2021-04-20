@@ -30,6 +30,6 @@ B: ``Malignant`` (cancerous)
 #### Malignant
 ![alt text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/malignant.png)
 # Image Processing
-Since the mammograms looks blury and dull, image preprocessing has been done to increase the sharpness and contrst of the image.
+Since the mammograms looks blury and dull, image preprocessing has been done to increase the sharpness and contrast of the image.
 ![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/processing.png)
 
