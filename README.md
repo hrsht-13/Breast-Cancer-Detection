@@ -13,7 +13,7 @@ For the diagnosis of breast cancer doctors often use additional tests to find or
 A mammogram shows ``how dense the breasts are``. Women with dense breasts have a higher risk of getting breast cancer.
 
 # Dataset
-The dataset contains breast mammography images(224,24,3). With labels of:
+The dataset contains breast mammography images(224,224,3). With labels of:
 #### 1. Density 
 The levels of density are:
 A: ``(1)`` Almost entirely fatty indicates that the breasts are almost entirely composed of fat. About 1 in 10 women has this result.
