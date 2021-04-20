@@ -25,3 +25,5 @@ A: ``Benign`` (noncancerous)
 B: ``Malignant`` (cancerous)
 
 # Training Images for each Class
+#### Benign 
+
