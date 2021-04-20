@@ -32,23 +32,16 @@ B: ``Malignant`` (cancerous)
 # Image Processing
 Since the mammograms looks blury and dull, image preprocessing has been done to increase the sharpness and contrast of the image.
 ![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/processing.png)
-# Model Deployment using Streamlit
+# Model Deployment using Gradio
 >!git clone https://github.com/hrsht-13/Breast-Cancer-Detection.git
 
 >%cd Breast-Cancer-Detection/
 
 >pip install -r requirements.txt
 
->!ngrok authtoken 1mWgwxghOSQ2x0LfNFTzYTnJ9zK_81vqRPDdijfPjq8ozBdGq
+>!python app.py 
 
->from pyngrok import ngrok
+###### Open the link to use the app
 
->public_url = ngrok.connect(port=8501)
-
->print (public_url)
-
->!streamlit run app.py >/dev/null (use the link to access the app)
-
->ngrok.kill()
 # App Display
 Still under progress
