@@ -33,7 +33,6 @@ B: ``Malignant`` (cancerous)
 Since the mammograms looks blury and dull, image preprocessing has been done to increase the sharpness and contrast of the image.
 ![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/processing.png)
 # Model Deployment using Streamlit
-``
 >!git clone https://github.com/hrsht-13/Breast-Cancer-Detection.git
 
 >%cd Breast-Cancer-Detection/
@@ -51,4 +50,4 @@ Since the mammograms looks blury and dull, image preprocessing has been done to 
 >!streamlit run app.py >/dev/null (use the link to access the app)
 
 >ngrok.kill()
-``
+
