@@ -44,11 +44,11 @@ Since the mammograms looks blury and dull, image preprocessing has been done to 
 
 >from pyngrok import ngrok
 
-public_url = ngrok.connect(port=8501)
+>public_url = ngrok.connect(port=8501)
 
-print (public_url)
+>print (public_url)
 
-!streamlit run app.py >/dev/null
+>!streamlit run app.py >/dev/null (use the link to access the app)
 
 >ngrok.kill()
 ``
