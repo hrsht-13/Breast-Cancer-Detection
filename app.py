@@ -26,7 +26,7 @@ def main():
   st.title("Breast-Cancer-Detection")
   st.header("use mammograms for breast cancer detection using deep learning techniques.")
   #photo=Image.open("burger-icon-with-slice-pizza-soda-icon-illustration_138676-132.jpg")
-  st.image(photo,use_column_width=True)
+  #st.image(photo,use_column_width=True)
   file=st.file_uploader("Please Upload PHOTO", type=["jpg","png"])
   from PIL import Image,ImageOps
   
