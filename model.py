@@ -1,6 +1,6 @@
 from tensorflow.keras.layers import Dense, Flatten, GlobalAveragePooling2D, BatchNormalization, Dropout,AveragePooling2D
 import tensorflow as tf
-from keras.applications.inception_resnet_v2 import DenseNet201
+from tensorflow.keras.applications import DenseNet201
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 from keras.models import Model
 from keras.models import Sequential
