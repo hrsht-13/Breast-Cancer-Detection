@@ -6,7 +6,6 @@ from keras.models import Sequential
 from keras.regularizers import *
 from tensorflow import keras
 from tensorflow.keras import layers
-from pyngrok import ngrok
 
 def download_model():
   model = Sequential()
