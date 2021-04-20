@@ -7,7 +7,7 @@ Among many cancers, breast cancer is the second most common cause of death in wo
 #### 3. Pain
 #### 4. Breast changes
 
-This projects uses mammograms for breast cancer detection using deep learning techniques.
+This project uses mammograms for breast cancer detection using deep learning techniques.
 
 For the diagnosis of breast cancer doctors often use additional tests to find or diagnose breast cancer. ``A mammogram is an X-ray picture of the breast``. Doctors use a mammogram to look for ``early signs of breast cancer``. Regular mammograms are the best tests doctors have to find breast cancer early, sometimes up to three years before it can be felt.
 A mammogram shows ``how dense the breasts are``. Women with dense breasts have a higher risk of getting breast cancer.
