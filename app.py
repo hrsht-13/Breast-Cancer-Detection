@@ -13,7 +13,7 @@ def main():
   st.set_option("deprecation.showfileUploaderEncoding",False)
   @st.cache(allow_output_mutation=True)
   def load_model():
-    #model=download_model()
+    download_model()
     model=tf.keras.models.load_model("model/model.h5")
     model.compile(optimizer =tf.keras.optimizers.Adam(learning_rate=0.00001,decay=0.0001),metrics=["accuracy"],
                   loss= tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1))
