@@ -32,6 +32,10 @@ B: ``Malignant`` (cancerous)
 # Image Processing
 Since the mammograms looks blury and dull, image preprocessing has been done to increase the sharpness and contrast of the image.
 ![atl text](https://github.com/hrsht-13/Breast-Cancer-Detection/blob/main/image/processing.png)
+
+# Why Deep-Learning?
+AI system studying X-ray mammograms was shown to be better than human experts when it came to predicting whether or not a patient has breast cancer. More specifically, the model was found to be as good as two doctors looking at the images, and better at spotting cancer than a single doctor, while also reducing the number of “false-negative” results. Such systems will never replace medical staff, but would serve as an extra set of eyes, while also being able to work 24/7 without getting tired or making mistakes.
+
 # Model Deployment using Gradio
 >!git clone https://github.com/hrsht-13/Breast-Cancer-Detection.git
 
